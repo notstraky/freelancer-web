@@ -163,14 +163,6 @@ h1, h2, h3 {
     align-items: flex-end;
 }
 
-
-.servicios, 
-.navegacion-principal,
-.formulario {
-    scroll-snap-align: center;
-    scroll-snap-stop: always;
-}
-
 /* Servicios */
 @media (min-width: 768px) {
     .servicios {
