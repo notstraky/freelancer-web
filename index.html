@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollador Freelancer</title>
+    <link rel="preload" href="./css/normalize.css" as="style">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="./css/styles.css" as="style">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">NotStraky <span>Freelancer</span></h1>
+    </header>
+
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="#">Inicio</a>
+            <a href="#">Sobre Mi</a>
+            <a href="#">Clientes</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </div>
+   
+    <section class="hero">
+        <div class="contenido-hero">
+            <h2>Desarrollo Web Freelancer</h2>
+
+            <div class="ubicacion">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFC107" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z"/>
+                    <circle cx="12" cy="11" r="3" />
+                    <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 0 1 -2.827 0l-4.244-4.243a8 8 0 1 1 11.314 0z" />
+                </svg>
+                <p>Cartago, Costa Rica</p>
+            </div> <!-- .ubicacion -->
+            
+            <a class="boton" href="#">Contactar</a>
+        </div> <!-- .contenido-hero -->
+    </section>
+
+    <main class="contenedor sombra">
+        <h2>Mis Servicios</h2>
+        
+        <div class="servicios">
+            <section class="servicio">
+                <h3>Desarrollo Web</h3>
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" x-bind:width="size" x-bind:height="size" viewBox="0 0 24 24" fill="none" stroke="currentColor" x-bind:stroke-width="stroke" stroke-linecap="round" stroke-linejoin="round" width="48" height="48" stroke-width="2">
+                        <path d="M9.5 9h3"></path>
+                        <path d="M4 9h2.5"></path>
+                        <path d="M11 9l3 11l4 -9"></path>
+                        <path d="M5.5 9l3.5 11l3 -7"></path>
+                        <path d="M18 11c.177 -.528 1 -1.364 1 -2.5c0 -1.78 -.776 -2.5 -1.875 -2.5c-.898 0 -1.125 .812 -1.125 1.429c0 1.83 2 2.058 2 3.571z"></path>
+                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                      </svg>
+                </div>               
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, sint deleniti fugit labore quidem.</p>
+            </section>
+            <section class="servicio">
+                <h3>Bots de discords</h3>
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" x-bind:width="size" x-bind:height="size" viewBox="0 0 24 24" fill="none" stroke="currentColor" x-bind:stroke-width="stroke" stroke-linecap="round" stroke-linejoin="round" width="48" height="48" stroke-width="2">
+                        <path d="M16 3v18l4 -2.5v-13z"></path>
+                        <path d="M9.165 13.903l-4.165 3.597l-2 -1l4.333 -4.5m1.735 -1.802l6.932 -7.198v5l-4.795 4.141"></path>
+                        <path d="M16 16.5l-11 -10l-2 1l13 13.5"></path>
+                      </svg>
+                </div>
+                
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, sint deleniti fugit labore quidem.</p>
+            </section>
+            <section class="servicio">
+                <h3>E-commerce</h3>
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" x-bind:width="size" x-bind:height="size" viewBox="0 0 24 24" fill="none" stroke="currentColor" x-bind:stroke-width="stroke" stroke-linecap="round" stroke-linejoin="round" width="48" height="48" stroke-width="2">
+                        <path d="M6.331 8h11.339a2 2 0 0 1 1.977 2.304l-1.255 8.152a3 3 0 0 1 -2.966 2.544h-6.852a3 3 0 0 1 -2.965 -2.544l-1.255 -8.152a2 2 0 0 1 1.977 -2.304z"></path>
+                        <path d="M9 11v-5a3 3 0 0 1 6 0v5"></path>
+                      </svg>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, sint deleniti fugit labore quidem.</p>
+            </section>
+        </div> <!-- .servicios -->
+
+        <section>
+            <h2>Contacto</h2>
+            <form class="formulario">
+                <fieldset>
+                    <legend>Conctáctame llenando todos los campos</legend>
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input class="input-text" type="text" placeholder="Nombre" >
+                        </div>
+
+                        <div class="campo">
+                            <label>Teléfono</label>
+                            <input class="input-text" type="tel" placeholder="Teléfono" >
+                        </div>
+                        
+                        <div class="campo">
+                            <label>Correo</label>
+                            <input class="input-text" type="email" placeholder="Mail" >
+                        </div>
+
+                        <div class="campo">
+                            <label>Mensaje</label>
+                            <textarea class="input-text"></textarea>
+                        </div>
+                    </div> <!-- .contenedor-campos -->
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-sm-100" type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Todos los derechos reservados. NotStraky Freelancer<p>
+    </footer>
+
+</body>
+</html>
